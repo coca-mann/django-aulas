@@ -2,13 +2,19 @@ import os
 
 os.system('cls')
 
-texto = 'AULA PYCODEBR'
+a = False
+b = False
 
-teste = 'Teste de Git'
+if a or b:
+    print('Atendeu')
+else:
+    print('Não atendeu')
 
-print(texto[0])
-print(texto[5:])
-print(len(texto))
-print(texto.count('AULA'))
-lista_de_palavras = texto.split()
-print(''.join(lista_de_palavras))
+idade = 25
+nome = 'Juliano'
+peso = 90
+
+if (nome == 'Juliano' or idade == 24) and peso == 90:
+    print('Dados corretos')
+else:
+    print('Dados incorretos')
