@@ -44,3 +44,29 @@ pessoas = [
 for pessoa in pessoas:
     email_enviado = enviar_email(pessoa['nome'], pessoa['email'])
     print(email_enviado)
+
+
+def envia_email(cliente):
+    print(f'Email enviado para o cliente {cliente}!')
+
+clientes = ['Ana', 'Jonas', 'Felipe', 'Cláudio', 'Renato']
+
+for cliente in clientes:
+    envia_email(cliente)
+
+for i, cliente in enumerate(clientes):
+    print(i, cliente)
+
+numero = 0
+
+while numero < 5:
+    print(numero)
+    numero += 1
+
+for i in range(0, 100, 10):
+    print(i)
+
+for i, cliente in enumerate(clientes):
+    if i == 2:
+        continue
+    envia_email(cliente)
