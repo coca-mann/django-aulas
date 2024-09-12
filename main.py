@@ -70,3 +70,15 @@ for i, cliente in enumerate(clientes):
     if i == 2:
         continue
     envia_email(cliente)
+
+meu_dicio = {
+    'nome': 'Felipe',
+    'idade': 25,
+    'profissao': 'Dev'
+}
+meu_dicio.pop('nome')
+print(meu_dicio)
+
+print(meu_dicio.keys())
+
+print(meu_dicio.values())
