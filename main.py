@@ -85,3 +85,32 @@ pessoa = {
 
 pessoa['pet']['ano_nascimento'] = 2022
 print(pessoa)
+
+lista = [10, 'Nove', True, 'Doze', 25]
+
+for i, item in enumerate(lista):
+    if i == len(lista):
+        break
+    else:
+        print(type(lista[i]))
+
+lista.append('Cartas')
+print(lista[len(lista)-1])
+
+lista.insert(1, 'Queijo')
+print(lista)
+
+lista.pop()
+print(lista)
+
+lista.reverse()
+print(lista)
+
+print(lista.count(True))
+
+inteiros = [9, 12, 3, 48, 22, 18, 24]
+inteiros.sort()
+print(inteiros)
+strings = ['Nove', 'Doze', 'Queijo', 'Bicicleta']
+strings.sort()
+print(strings)
