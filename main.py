@@ -71,14 +71,17 @@ for i, cliente in enumerate(clientes):
         continue
     envia_email(cliente)
 
-meu_dicio = {
+pessoa = {
     'nome': 'Felipe',
     'idade': 25,
-    'profissao': 'Dev'
+    'profissao': 'Dev',
+    'interesses': ['Python', 'Programacao', 'Notebooks'],
+    'pet': {
+        'nome': 'Loki',
+        'idade': 1,
+        'peso': '2kg'
+    }
 }
-meu_dicio.pop('nome')
-print(meu_dicio)
 
-print(meu_dicio.keys())
-
-print(meu_dicio.values())
+pessoa['pet']['ano_nascimento'] = 2022
+print(pessoa)
