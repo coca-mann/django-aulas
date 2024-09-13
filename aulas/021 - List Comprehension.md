@@ -15,7 +15,7 @@ print(numeros_dobrados)
 ```
 O resultado do código acima deve ser:
 
-```txt
+```plain text
 [2, 4, 6, 8, 10]
 ```
 
