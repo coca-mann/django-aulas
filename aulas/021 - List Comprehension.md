@@ -29,7 +29,7 @@ print(nomes_maiusculos)
 No código acima estamos pegando todos as strings da lista `nomes` e transformando em strings maiusculas utilizando o método `upper()` para cada string da lista.
 
 O resultado deve ser o seguinte:
-```txt
+```plain text
 ['JULIANO', 'SARA', 'FELIPE']
 ```
 
@@ -65,7 +65,7 @@ No código acima adicionamos uma condição utilizando o `if` e dizendo que SE o
 
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 ['FELIPE', 'FERNANDO']
 ```
 

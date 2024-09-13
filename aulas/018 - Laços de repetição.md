@@ -24,7 +24,7 @@ Quando acabarem todos os itens da lista `clientes`, o laço será encerrado.
 
 A saída do código acima deve ser:
 
-```txt
+```plain text
 Email enviado para o cliente Ana!
 Email enviado para o cliente Jonas!
 Email enviado para o cliente Felipe!
@@ -51,7 +51,7 @@ Na definição do `range` do laço acima, o mesmo executará um loop começando 
 
 A saída do console deve ser a seguinte:
 
-```txt
+```plain text
 0
 10
 20
@@ -78,7 +78,7 @@ while numero < 5:
 No caso acima, o código dentro do laço começa a ser executado com o valor da varíavel `numero` sendo 0, conforme declarada. O código dentro do laço imprime no console o valor da varíavel e em seguida soma 1 número no valor da varíavel. Em seguida o código é executado novamente, até que na última a condição do while será False, pois 5 não é menor que 5, e o laço de repetição é encerrado.
 
 A saída do console deve ser a seguinte:
-```txt
+```plain text
 0
 1
 2
@@ -100,7 +100,7 @@ for i, cliente in enumerate(clientes):
 ```
 No caso acima estamos buscando o índice de cada item da lista e colocando na varíavel `i` do laço de repetição, e também buscando o item em si e colocando na varíavel `clientes`. Dessa forma, a saída de console deve ser a seguinte:
 
-```txt
+```plain text
 0 Ana
 1 Jonas
 2 Felipe
@@ -130,7 +130,7 @@ Enquanto a condição do `if` não é satisfeita, o loop será executado utiliza
 
 A saída no console deve ser a seguinte:
 
-```txt
+```plain text
 Email enviado para o cliente Ana!
 Email enviado para o cliente Jonas!
 ```
@@ -153,7 +153,7 @@ O laço será executado até `i` for igual a 2. Quando isso acontecer aquele loo
 
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 Email enviado para o cliente Ana!
 Email enviado para o cliente Jonas!
 Email enviado para o cliente Cláudio!

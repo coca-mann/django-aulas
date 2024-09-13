@@ -62,7 +62,7 @@ No caso acima é criado uma lista de objetos dentro da variavel `pessoas` onde c
 
 O resultado é a saída no console:
 
-```txt
+```plain text
 Email enviado para Felipe na conta de email felipe@gmail.com
 Email enviado para Gabriele na conta de email gabriele@gmail.com
 Email enviado para Pedro na conta de email pedro@gmail.com

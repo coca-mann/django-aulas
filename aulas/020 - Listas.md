@@ -17,7 +17,7 @@ for i, item in enumerate(lista):
 ```
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 <class 'int'>
 <class 'str'>
 <class 'bool'>
@@ -53,7 +53,7 @@ print(lista)
 ```
 Ao executar o código acima, o dado 'Queijo' será inserido na posição 1 da lista, e em seguida é impresso a lista completa que deve ser assim:
 
-```txt
+```plain text
 [10, 'Queijo', 'Nove', True, {'veiculo': 'Carro', 'Marca': 'Fiat', 'Ano': 2007}, [19, 'Treze'], 25.05, 'Cartas']
 ```
 
@@ -70,7 +70,7 @@ print(lista)
 ```
 A saída do console deve ser a seguinte:
 
-```txt
+```plain text
 [10, 'Queijo', 'Nove', True, {'veiculo': 'Carro', 'Marca': 'Fiat', 'Ano': 2007}, [19, 'Treze'], 25.05]
 ```
 
@@ -82,7 +82,7 @@ print(lista)
 ```
 O item com índice 2 será removido da lista e a saída do console deve ser a seguinte:
 
-```txt
+```plain text
 [10, 'Queijo', {'veiculo': 'Carro', 'Marca': 'Fiat', 'Ano': 2007}, [19, 'Treze'], 25.05]
 ```
 
@@ -94,7 +94,7 @@ print(lista)
 ```
 Esse método fará uma busca pelo valor informado na lista, e somente removerá se o valor for encontrado. Após o valor ser encontrado e removida, a saída de console deve ser a seguinte:
 
-```txt
+```plain text
 [10, 'Queijo', 'Nove', True, {'veiculo': 'Carro', 'Marca': 'Fiat', 'Ano': 2007}, [19, 'Treze']]
 ```
 
@@ -115,7 +115,7 @@ print(lista)
 ```
 A saída de console deve ser a seguinte:
 
-```txt
+```plain text
 [25.05, [19, 'Treze'], {'veiculo': 'Carro', 'Marca': 'Fiat', 'Ano': 2007}, True, 'Nove', 'Queijo', 10]
 ```
 
@@ -134,7 +134,7 @@ print(strings)
 ```
 A saída do console deve ser a seguinte:
 
-```txt
+```plain text
 [3, 9, 12, 18, 22, 24, 48]
 ['Bicicleta', 'Doze', 'Nove', 'Queijo']
 ```

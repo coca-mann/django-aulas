@@ -33,7 +33,7 @@ print(meu_dicio)
 ```
 A ação acima irá adicionar a chave `ano_nascimento` ao dicionário `meu_dicio` e em seguida irá imprimir no console o resultado, que deve ser o seguinte:
 
-```txt
+```plain text
 {'nome': 'Felipe', 'idade': 25, 'profissao': 'Dev', 'ano_nascimento': 1997}
 ```
 Esse método serve para qualquer tipo de dado. É possível atribuir strings, inteiros, listas e até dicionários.
@@ -58,7 +58,7 @@ print(pessoa)
 ```
 A saída do código deve informar a nova chave dentro de `pet`:
 
-```txt
+```plain text
 {'nome': 'Felipe', 'idade': 25, 'profissao': 'Dev', 'interesses': ['Python', 'Programacao', 'Notebooks'], 'pet': {'nome': 'Loki', 'idade': 1, 'peso': '2kg', 'ano_nascimento': 2022}}
 ```
 
@@ -73,7 +73,7 @@ No código acima estamos usando o método `pop` para remover o item que possui a
 
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 {'idade': 25, 'profissao': 'Dev'}
 ```
 
@@ -85,7 +85,7 @@ print(meu_dicio.keys())
 ```
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 dict_keys(['idade', 'profissao'])
 ```
 
@@ -97,7 +97,7 @@ print(meu_dicio.values())
 ```
 A saída do código deve ser a seguinte:
 
-```txt
+```plain text
 dict_values([25, 'Dev'])
 ```
 
