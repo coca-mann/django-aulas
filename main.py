@@ -127,3 +127,4 @@ print(nomes_maiusculos)
 nomes = ['Juliano', 'Sara', 'Felipe', 'Antonio', 'Fernando']
 nomes_maiusculos = [nome.upper() for nome in nomes if nome[0] == 'F']
 print(nomes_maiusculos)
+
