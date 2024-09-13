@@ -114,3 +114,16 @@ print(inteiros)
 strings = ['Nove', 'Doze', 'Queijo', 'Bicicleta']
 strings.sort()
 print(strings)
+
+numeros = [1, 2, 3, 4, 5]
+
+numeros_dobrados = [numero * 2 for numero in numeros]
+print(numeros_dobrados)
+
+nomes = ['Juliano', 'Sara', 'Felipe']
+nomes_maiusculos = [nome.upper() for nome in nomes]
+print(nomes_maiusculos)
+
+nomes = ['Juliano', 'Sara', 'Felipe', 'Antonio', 'Fernando']
+nomes_maiusculos = [nome.upper() for nome in nomes if nome[0] == 'F']
+print(nomes_maiusculos)
