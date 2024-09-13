@@ -43,6 +43,6 @@ print(credenciais)
 ```
 A saída do código deve exibir uma lista com os valores das variáveis de ambiente configuradas no sistema operacional.
 
-```txt
+```plain text
 ['pycodebr', '1234']
 ```
